@@ -1,0 +1,21 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+
+RewriteCond %{HTTPS} off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} 
+RewriteBase / 
+RewriteRule ^features$ features.php
+RewriteRule ^how-to-create-ftm-wallet$ how-to-create-ftm-wallet.php
+RewriteRule ^how-to-login-the-wallet$ how-to-login-the-wallet.php
+RewriteRule ^how-to-send-and-receive-ftm$ how-to-send-and-receive-ftm.php
+RewriteRule ^disclaimer$ disclaimer.php
+RewriteRule ^help$ help.php
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
