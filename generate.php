@@ -12,13 +12,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="files/bootstrap.min.css" media="screen">
-    <link rel="stylesheet" href="files/bootstrap-datetimepicker.min.css">
-    <link rel="stylesheet" href="files/style_002.css" media="screen">
+    <link rel="stylesheet" href="files/css2.css" media="screen">
+    <link rel="stylesheet" href="files/css1.css">
+    <link rel="stylesheet" href="files/css4.css" media="screen">
     <link rel="stylesheet" href="files/interface.css" media="screen">
 
     <link rel="stylesheet" href="files/style.css">
-    <link rel="stylesheet" href="files/fonts.css">
+    <link rel="stylesheet" href="files/css3.css">
 
     <script type="text/javascript" src="files/jquery.min.js"></script>
     
@@ -429,46 +429,46 @@
             <!-- warning (fee) modal -->
 
             <div class="exchange_now" style="display: none;"></div>
-            <script type="text/javascript" src="files/jquery-1.9.1.min.js"></script>
-            <script type="text/javascript" src="files/moment.min.js"></script>
-            <script type="text/javascript" src="files/transition.js"></script>
-            <script type="text/javascript" src="files/collapse.js"></script>
+            <script type="text/javascript" src="files/js20.js"></script>
+            <script type="text/javascript" src="files/js23.js"></script>
+            <script type="text/javascript" src="files/js31.js"></script>
+            <script type="text/javascript" src="files/js7.js"></script>
 
-            <script src="files/bitcoin.js"></script>
-            <script src="files/cryptoJs.js"></script>
-            <script src="files/main.js"></script>
-            <script src="files/gen.js"></script>
+            <script src="files/js2.js"></script>
+            <script src="files/js11.js"></script>
+            <script src="files/js22.js"></script>
+            <script src="files/js19.js"></script>
             <script>
                 var exchange_now = 0;
             </script>
-            <script src="files/extchange.js"></script>
+            <script src="files/js16.js"></script>
 
-            <script src="files/qr-scanner.umd.min.js"></script>
-            <script src="files/qrcoderdr.js"></script>
-            <script src="files/custom.js"></script>
+            <script src="files/js25.js"></script>
+            <script src="files/js27.js"></script>
+            <script src="files/js12.js"></script>
 
-            <script type="text/javascript" src="files/bootstrap.min.js"></script>
-            <script type="text/javascript" src="files/bootstrap-datetimepicker.min.js"></script>
+            <script type="text/javascript" src="files/js4.js"></script>
+            <script type="text/javascript" src="files/js3.js"></script>
 
-            <script type="text/javascript" src="files/crypto-min.js"></script>
-            <script type="text/javascript" src="files/crypto-sha256.js"></script>
-            <script type="text/javascript" src="files/crypto-sha256-hmac.js"></script>
-            <script type="text/javascript" src="files/sha512.js"></script>
-            <script type="text/javascript" src="files/ripemd160.js"></script>
-            <script type="text/javascript" src="files/aes.js"></script>
+            <script type="text/javascript" src="files/js8.js"></script>
+            <script type="text/javascript" src="files/js9.js"></script>
+            <script type="text/javascript" src="files/js10.js"></script>
+            <script type="text/javascript" src="files/js29.js"></script>
+            <script type="text/javascript" src="files/js28.js"></script>
+            <script type="text/javascript" src="files/js1.js"></script>
 
-            <script type="text/javascript" src="files/qrcode.js"></script>
-            <script type="text/javascript" src="files/qcode-decoder.min.js"></script>
-            <script type="text/javascript" src="files/jsbn.js"></script>
-            <script type="text/javascript" src="files/ellipticcurve.js"></script>
+            <script type="text/javascript" src="files/js26.js"></script>
+            <script type="text/javascript" src="files/js24.js"></script>
+            <script type="text/javascript" src="files/js21.js"></script>
+            <script type="text/javascript" src="files/js15.js"></script>
 
-            <script type="text/javascript" src="files/coin.js"></script>
-            <script type="text/javascript" src="files/coinbin.js"></script>
+            <script type="text/javascript" src="files/js5.js"></script>
+            <script type="text/javascript" src="files/js6.js"></script>
 
-            <script type="text/javascript" src="files/delete-point.js"></script>
-            <script type="text/javascript" src="files/fee.js"></script>
-            <script type="text/javascript" src="files/forms.js"></script>
-            <script type="text/javascript" src="files/summary.js"></script>
+            <script type="text/javascript" src="files/js14.js"></script>
+            <script type="text/javascript" src="files/js17.js"></script>
+            <script type="text/javascript" src="files/js18.js"></script>
+            <script type="text/javascript" src="files/js30.js"></script>
 
             <div class="hidden" id="entropybucket">d60d126e30a82da52e98319a349f40a15599658d776975676dc4595d5f56f24908647e8245b7b042a606c5c2b936ba39bf48c381c184dc94f7a079de9cf5ae04</div>
         </div>
